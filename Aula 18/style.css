@@ -17,9 +17,29 @@ section{
     grid-template-columns: 1fr 1fr;
 }
 
-h1.primeiro{
-    display:flex ;
-    text-align: center;
-    justify-content: center;
+img{
+    border-radius: 10%;
+
 }
+
+div.esquerda{
+    display: grid;
+    place-items: center;
+    row-gap: 30px;
+  }
+
+  div.direita{
+    display: grid;
+    place-items: center;
+    row-gap: 30px;
+    border-left: 1px solid black;
+  }
+
+ h1{
+    font-size: 40px;
+ }
+
+ p{
+    font-size: 20px;
+ }
 
